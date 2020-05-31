@@ -10,10 +10,13 @@ body{
     min-height: 850px;
     background-size: cover;
     background-position: center;
+    z-index:0;
 }
 .menu{
     width:100%;
-    background: #00000065;  
+    background: #393939cb;  
+    position: fixed;
+    z-index: 9999;
 }
 .logo{
     padding-top: 17px;
@@ -64,7 +67,7 @@ nav ul li {
    
 }
 .header-content{
-    padding: 14% 0;
+    padding-top: 25%;
 }
 .header-content h1{
     text-align: left;
@@ -328,4 +331,434 @@ nav ul li {
     border-bottom: 30px solid #eabab6;
     margin-left: 165px; 
 }
+.about5{
+    min-height: 800px;
+}
+.about5 h2{
+    font-size: 60px;
+    color:#eabab6;
+    font-weight: 700;
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+.contacts-text{
+    font-size: 1.3em;
+ 
+}
+.contacts-text i{
+    color: #eabab6;
+    font-size: 1.6em;
+    margin-right: 8px;
+    width: 17px;
+}
+.contacts-text strong{
+    font-weight: 700;
+}
 
+
+/* Страница контакты */
+.main{
+    min-height: 150px;
+}
+.contacts h2{
+    color:#393939;
+    font-weight: 700;
+    border-bottom: 4px solid #eabab6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.info{
+    padding-top: 40px;
+}
+.info strong{
+    font-size: 20px;
+    color:#393939;
+    font-weight: 700;
+}
+.info p{
+    font-size: 18px;
+    padding-top: 13px;
+}
+.info i{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    color: #eabab6;
+}
+.info i:hover{
+    color: #393939;
+}
+.callback2 input{
+    background-color: #bebebe4b;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 12px;
+    width:100%;
+}
+.callback2{
+    padding-top: 45px;
+}
+.callback2 label{
+    width:100%;
+    padding-bottom: 20px;
+}
+.callback2 input:focus, .callback2 textarea:focus{
+    background-color: #bebebe9c;
+}
+.callback2 textarea{
+    width: 100%; 
+    background-color: #bebebe4b;
+    border:none;
+    border-radius: 3px;
+    padding: 15px 12px;
+}
+.button4{
+    display: inline-block;
+    border: none;
+    background-color: #eabab6;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    border-radius: 3px;
+    box-shadow: 0 4px 0 #c79f9b;
+    transition: all .25s ease;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.button4:hover{
+    background-color: #eabab6d3;
+    text-decoration: none;
+    color:#ffffff;
+}
+.button4:active{
+    background-color:#c79f9b;
+    transform: translateY(2px);
+}
+.map{
+    margin-top: 90px;
+}
+
+/* Услуги */
+.main1{
+    min-height: 93px;
+}
+.glav{
+    background-image: url(../img/bg8.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.glav h1{
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+#rectangle {
+	width: 200px;
+	height: 3px;
+    background: #eabab6;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.glav p{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 35px;
+}
+.inf2 img{
+    border-radius: 10em;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.inf2 h4{
+    font-size: 25px;
+    color:#393939;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.inf2 p{
+    font-size: 20px;
+    color:#393939;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2  0px;
+
+}
+.bot{
+    background-color: #eabab6;
+    min-height: 490px;
+    margin-top: 150px;
+}
+.bot h2{
+    font-size: 35px;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 130px;
+    text-transform: uppercase;
+}
+#rectangl{
+	width: 200px;
+	height: 3px;
+    background: #fff;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.button3, .bot a{
+    margin-left: 37.5%;
+    margin-top: 4.5%;
+    position: relative;
+    display: inline-block;
+    border: none;
+    background-color: #393939;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px 35px;
+    border-radius: 3px;
+    transition: all .25s ease;
+    font-weight: 700;
+}
+
+.button3:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+    color:#393939;
+    border: 1px solid #393939;
+}
+.button3:active{
+    background-color: #ffffff;
+    border: 2px solid #eabab6;
+     transform: translateY(2px);
+}
+.niz{
+    background-color: #393939;
+    min-height: 300px;
+
+}
+.txt p{
+    font-size: 15px;
+    color:#fff;
+    font-weight: 400;
+    text-align: center;
+}
+.txt {
+    padding-top: 50px;
+}
+.txt2 i{
+    font-size: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+.txt2 i:hover{
+    color: #eabab6;
+}
+.txt2 {
+    padding-top: 10px;
+    text-align: center;
+}
+.txt2 p{
+    font-size: 15px;
+    color:#fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+} 
+/* О компании */
+.glav1{
+    background-image: url(../img/bg9.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.glav1 h1{
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+#rectangle1 {
+	width: 150px;
+	height: 3px;
+    background: #eabab6;
+    margin-left: 480px;
+    margin-top: 30px;
+}
+.glav1 p{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 35px;
+}
+.glav2 p{
+    font-size: 15px;
+    color:#393939;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 35px;
+}
+.inf4 {
+    min-height: 200px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.inf5{
+    background-image: url(../img/bg10.jpg);
+    min-height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.glav3 span{
+    font-size: 70px;
+    color:#eabab6;
+    font-weight: 700;
+    margin-top: 55px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+}
+.glav3 p{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 700;
+    margin-top: 155px;
+    text-align: center;
+    width: 100%;
+    position: absolute;  
+}
+.inf6 {
+    min-height: 700px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.inf6 h3{
+    font-size: 70px;
+    font-weight: 700;
+    color: #393939;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.img-inf .member{
+    height: 350px;
+    width: 350px;
+}
+.item-inf h4{
+    font-size: 25px;
+    color:#393939;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+}
+.item-inf p{
+    font-size: 18px;
+    color:#eabab6;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+}
+.glav-1{
+    background-image: url(../img/bg11.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.glav-1 h1{
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+.glav-1 p{
+    font-size: 20px;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* Отзывы */
+.callback3 input{
+    background-color: #bebebe4b;
+    border: none;
+    border-radius: 3px;
+    padding: 25px 12px;
+    width:100%;
+}
+.callback3{
+    padding-top: 45px;
+}
+.callback3 label{
+    width:100%;
+    padding-bottom: 20px;
+}
+.callback3 input:focus, .callback3 textarea:focus{
+    background-color: #bebebe9c;
+}
+.callback3 textarea{
+    width: 100%; 
+    background-color: #bebebe4b;
+    border:none;
+    border-radius: 3px;
+    padding: 15px 12px;
+}
+.inf7{
+    margin-top: 50px;
+}
+.inf7 h2{
+    font-size: 35px;
+    color:#393939;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+#comment-add{
+	background: #eabab6;
+	color: #fff;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 12px 45px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family:'Open Sans', sans-serif;
+	font-weight:600;
+	box-shadow: 0 4px 0 #c79f9b;
+	transition: all .45s ease;
+	border:none;
+	margin: 0 auto;
+    display: flex;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+#comment-add:hover{
+    background-color: #eabab6d3;
+    text-decoration: none;
+    color:#ffffff;
+}
+#comment-add:active{
+    background-color:#c79f9b;
+    transform: translateY(2px);
+}
+#comment-field{
+	margin:20px;
+}
