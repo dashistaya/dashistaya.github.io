@@ -1,6 +1,7 @@
+"use strict"
 let comments = [];
 loadComments();
-
+showComments();
 document.getElementById('comment-add').onclick = function(){
     let commentName = document.getElementById('comment-name');
     let commentBody = document.getElementById('comment-body');
@@ -18,9 +19,6 @@ document.getElementById('comment-add').onclick = function(){
     saveComments();
     showComments();
 }
-document.getElementById('comment-remove').onclick = function(){
-$('form input[type="text"], form input[type="password"], form textarea').val('');
-}
 
 
 function saveComments(){
@@ -32,14 +30,25 @@ function loadComments(){
     showComments();
 }
 
-function showComments (){
+function showComments(){
     let commentField = document.getElementById('comment-field');
     let out = '';
-    comments.forEach(function(item){
-        out += `<p class="alert alert-primary" role="alert">${item.name}<br>
-        ${item.body}<br>${timeConverter(item.time)}</p>`;
-    });
+for(let i in comments){
+        out += `<div class="alert alert-primary" role="alert"><p>${comments[i].name}</p>
+        <p>${comments[i].body}</p><p>${timeConverter(comments[i].time)}</p>
+        <a href="#" data-art="${[i]}" class="comment-remove"><i class="fas fa-trash-alt"></i></a></div>
+        `;
+}
     commentField.innerHTML = out;
+    $('.comment-remove').on('click', deleteComment);
+}
+   
+
+function deleteComment(){
+    let id = $(this).attr('data-art');
+    comments.splice(id,1);
+    saveComments()
+    showComments()
 }
 
 function timeConverter(UNIX_timestamp){

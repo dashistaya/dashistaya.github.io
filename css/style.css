@@ -1,27 +1,37 @@
 body{
     font-family: 'Comfortaa', sans-serif;
-    
 }
 .hidden{
     display: none;
 }
-.main-head{
+.order{
     background-image: url(../img/bg2.jpg);
+    width: 100%;
     min-height: 850px;
     background-size: cover;
     background-position: center;
-    z-index:0;
-}
-.menu{
-    width:100%;
-    background: #393939cb;  
-    position: fixed;
-    z-index: 9999;
 }
 .logo{
-    padding-top: 17px;
-    padding-bottom: 10px;
     width: 140px;
+}
+.lowertext{
+    padding-top: 10px;
+}
+.probel{
+    padding-top: 8px;
+}
+.navbar-toggler{
+    border:none;
+}
+.nav-link{
+    color: #fff !important;   
+}
+.nav-link:hover{
+    color: #eabab6 !important;
+    transition: ease-out 0.4s;
+}
+.active a{
+    color: #eabab6 !important;   
 }
 nav ul li {
     list-style-type: none;
@@ -31,30 +41,15 @@ nav ul li {
     padding-left: 20px;
     font-size: 20px; 
 }
-.main-menu a{
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 500;
-}
-.main-menu a:hover{
-    color: #eabab6;
-    transition: ease-out 0.4s;
-}
-.main-menu{
-    text-align: right;
-    padding-top: 35px;
-}
 .phone{
     text-align: right;
 }
 .phone-number{
     color: #ffffff;
     font-weight: 600;
-    font-size: 22px;
-    padding-top: 25px;
-    line-height: 10px;
-    
+    line-height: 10px; 
 }
+
 .callback{
     color: #ffffff;
     font-size: 14px;
@@ -67,23 +62,21 @@ nav ul li {
    
 }
 .header-content{
-    padding-top: 25%;
+    padding-top: 20vh;
+    text-align: left;
 }
 .header-content h1{
-    text-align: left;
     color: #ffffff;
     font-size: 90px;
     font-weight: 700;
     line-height: 70px;
 }
 .header-content h2{
-    text-align: left;
     color: #ffffff;
     font-size: 50px;
     font-weight: 700;
 }
 .header-content ul{
-    text-align: left;
     color: #ffffff;
     list-style-type: none;
     padding:0;
@@ -127,18 +120,21 @@ nav ul li {
 }
 .img1{
     width: 600px;
+    overflow: hidden;
 }
-.bg3{
-    width: 550px;
-    height: 820px;
-    opacity: 0.3;
-    padding-left: 30px;
-    padding-top: 30px;
-    position: absolute;
+.img-block{
+    overflow: hidden;
+}
+.content-block{
+    margin: 0 3em 0 3em;
+    padding: 5.5em 0 3em 0;
+}
+.about1{
+    background-color: #fff8f7;
+    height: 807px;
+    margin: 20px 0 0 0;
 }
 .about1 h3{
-    margin-left: 15%;
-    padding-top: 100px;
     position: relative;
     font-size: 20px;
     border-bottom: 4px solid #eabab6;
@@ -148,13 +144,12 @@ nav ul li {
 }
 .about1 p{
     position: relative;
-    margin-left: 15%;
+    text-align: justify;
     padding-top: 7%;
     font-size: 22px;
     color: #393939;
 }
 .about1 button2, .about1 a{
-    margin-left: 15%;
     margin-top: 7%;
     position: relative;
     display: inline-block;
@@ -183,7 +178,7 @@ nav ul li {
 .button2:active{
     background-color: #ffffff;
     border: 2px solid #eabab6;
-     transform: translateY(2px);
+    transform: translateY(2px);
 }
 .about2{
     background-image: url(../img/bg5.jpg);
@@ -192,17 +187,17 @@ nav ul li {
     background-position: center;
     background-attachment: fixed; 
 }
+.about2txt{
+    text-align: center;
+    padding-top: 190px;
+}
 .about2txt p{
-    margin-left: 20%;
-    padding-top: 17%;
     position: relative;
     font-size: 33px;
     font-weight: 700;
     color: #393939;
 }
 .about2txt h1{
-    margin-left: 25%;
-    padding-top: 2%;
     position: relative;
     font-size: 120px;
     font-weight: 700;
@@ -210,15 +205,13 @@ nav ul li {
     margin-bottom: 0;
 }
 .about2txt h2{
-    margin-left: 35%;
     position: relative;
     font-size: 70px;
     font-weight: 700;
     color: #393939;
 }
 .about2txt a{
-    margin-left: 45%;
-    margin-top: 3%;
+    margin-top: 1em;
     position: relative;
     display: inline-block;
     border: none;
@@ -233,38 +226,23 @@ nav ul li {
     color: #a2a491;
 }
 .about3{
-    min-height: 400px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-.img4{
-    width: 100px;
-    margin-top: 8%;
-    margin-right: 12%;
-    margin-left: 3%;
-    padding-bottom: 2%;
+.colori{
+    color:#eabab6;
 }
-.img5{
-    width: 100px;
-    margin-top: 8%;
-    margin-right: 13%;
-    padding-bottom: 2%;
+.icons{
+    text-align: center;
+    margin: 8rem 0 3rem 0;
 }
-.img6{
-    width: 100px;
-    margin-top: 8%;
-    margin-left: 7%;
-    margin-right: 21%;
-    padding-bottom: 2%;
-}
-.img7{
-    width: 100px;
-    margin-top: 8%;
-    padding-bottom: 2%;
+.par{
+    margin-bottom: 5rem;
 }
 .par p{
-    font-size: 30px;
+    font-size: 24px;
+    margin-top: 1rem;
     color:#393939;
     font-weight: 700;
     text-transform: uppercase;
@@ -329,7 +307,7 @@ nav ul li {
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
     border-bottom: 30px solid #eabab6;
-    margin-left: 165px; 
+    margin: auto; 
 }
 .about5{
     min-height: 800px;
@@ -342,6 +320,12 @@ nav ul li {
     text-align: center;
     margin-bottom: 60px;
     
+}
+.socials{
+    margin-bottom: 1.5em;
+}
+.contactsx{
+    margin-top: 5em;
 }
 .contacts-text{
     font-size: 1.3em;
@@ -459,12 +443,19 @@ nav ul li {
     text-align: center;
     margin-top: 150px;
 }
+#rectangle1 {
+	width: 200px;
+	height: 3px;
+    background:#fff;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 #rectangle {
 	width: 200px;
 	height: 3px;
     background: #eabab6;
-    margin-left: 450px;
-    margin-top: 30px;
+    margin: 0 auto;
 }
 .glav p{
     font-size: 20px;
@@ -501,7 +492,7 @@ nav ul li {
     background-color: #eabab6;
     min-height: 490px;
     margin-top: 150px;
-}
+    text-align: center;}
 .bot h2{
     font-size: 35px;
     color:#fff;
@@ -510,16 +501,7 @@ nav ul li {
     padding-top: 130px;
     text-transform: uppercase;
 }
-#rectangl{
-	width: 200px;
-	height: 3px;
-    background: #fff;
-    margin-left: 450px;
-    margin-top: 40px;
-}
 .button3, .bot a{
-    margin-left: 37.5%;
-    margin-top: 4.5%;
     position: relative;
     display: inline-block;
     border: none;
@@ -592,13 +574,6 @@ nav ul li {
     text-align: center;
     margin-top: 150px;
 }
-#rectangle1 {
-	width: 150px;
-	height: 3px;
-    background: #eabab6;
-    margin-left: 480px;
-    margin-top: 30px;
-}
 .glav1 p{
     font-size: 20px;
     color:#fff;
@@ -620,29 +595,28 @@ nav ul li {
 }
 .inf5{
     background-image: url(../img/bg10.jpg);
-    min-height: 260px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
+}
+.adv{
+    margin: 1rem 0;
+}
+.glav3{
+    text-align: center;
 }
 .glav3 span{
     font-size: 70px;
     color:#eabab6;
     font-weight: 700;
     margin-top: 55px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    
+    width: 100%; 
 }
 .glav3 p{
     font-size: 20px;
     color:#fff;
     font-weight: 700;
-    margin-top: 155px;
-    text-align: center;
     width: 100%;
-    position: absolute;  
 }
 .inf6 {
     min-height: 700px;
@@ -655,6 +629,11 @@ nav ul li {
     color: #393939;
     text-align: center;
     margin-bottom: 50px;
+}
+
+.img-inf{
+    text-align: center;
+    overflow: hidden;
 }
 .img-inf .member{
     height: 350px;
@@ -762,3 +741,237 @@ nav ul li {
 #comment-field{
 	margin:20px;
 }
+#comment-field p{
+    margin: 0;
+}
+
+
+
+
+@media only screen and (max-width:1024px){
+    .content-block{
+        padding: 2.3em 0 1.5em 0 !important;
+    }
+    .order{
+        background-image: url(../img/bg2.jpg);
+        width: 100%;
+        min-height: 650px;
+        background-size: cover;
+        background-position: center;
+    }
+    .header-content{
+        padding-top: 20vh;
+    }
+    .header-content h1{
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 70px;
+    }
+    .header-content h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .header-content ul{
+        font-size: 22px;
+        padding-top: 30px;
+        font-weight: 700;
+        padding-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .phone{
+        text-align: left;
+    }
+    .about1{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .glav-1 h1 {
+        font-size: 45px;
+    }
+    #comment-field{
+        margin:0 auto;
+    }
+    .contacts{
+        text-align: center;
+    }
+    .about4 h1{
+        font-size: 50px!important;
+    }
+    .about1{
+        height: 620px;
+    }
+    .content-block{
+        text-align: center;
+    }
+    .img1{
+        margin-left: 45px;
+    }
+    .order{
+        background-image: url(../img/bg2.jpg);
+        width: 100%;
+        min-height: 650px;
+        background-size: cover;
+        background-position: center;
+    }
+    .button1{
+        padding: 16px 20px;
+    }
+    .header-content{
+        padding-top: 20vh;
+    }
+    .header-content h1{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+    }
+    .header-content h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .header-content ul{
+        font-size: 20px;
+        padding-top: 30px;
+        font-weight: 700;
+        padding-bottom: 60px;
+    }
+}
+@media only screen and (max-width:425px){
+    .glav1 h1 {
+        font-size: 40px;
+        margin-top: 130px;
+    }
+    .inf6 h3 {
+        font-size: 40px;
+    }
+    .glav-1 h1{
+        font-size: 30px;
+        margin-top: 130px;
+    }
+    .glav-1 p{
+        font-size: 1em;
+    }
+    .inf7 h2 {
+        font-size: 30px;
+    }
+    .bot h2{
+        font-size: 1.7em;
+    }
+    .glav p{
+        font-size: 1em;
+    }
+    .glav h1{
+        font-size: 30px;
+    }
+    .content-block{
+        text-align: center;
+    }
+    .about1{
+        height: 580px;
+    }
+    .about1 p{
+        font-size: 1em;
+    }
+    .about1 button2, .about1 a {
+        margin-top: 7%;
+        position: relative;
+        display: inline-block;
+        border: none;
+        background-color: #eabab6;
+        color: #ffffff;
+        font-size: 1em;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 10px;
+        text-align: center;
+        border-radius: 3px;
+        transition: all .25s ease;
+        font-weight: 700;
+    }
+    .header-content{
+        text-align: center ;
+    }
+    .order{
+        background-image: none !important;
+        background: #eabab6;
+    }
+    .header-content h1{
+        font-size: 50px !important;
+    }
+    .about2txt h1{
+        font-size: 80px;
+    }
+    .about2txt h2{
+        font-size: 50px;
+    }
+    .img1{
+        width: 395px;
+        margin-left: 0;
+    }
+    .about4 h1{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:375px){
+    .img1{
+        width: 345px;
+    }
+    .about4 h1{
+        font-size: 40px!important;
+    }
+    .about2txt h1{
+        font-size: 60px !important;
+    }
+    .about2txt h2{
+        font-size: 30px !important;
+    }
+    .about2txt p{
+        font-size: 24px !important;
+    }
+    .about4 h1{
+        font-size: 40px;
+    }
+    .about1{
+        height:650px;
+    }
+}
+@media only screen and (max-width:320px){
+    .glav1 h1 {
+        font-size: 30px;
+        margin-top: 130px;
+    }
+    .bot h2{
+        font-size: 1.5em;
+    }
+    .glav h1{
+        font-size: 26px;
+    }
+    .img1{
+        width: 290px!important;
+    }
+    .about1{
+        height: 807px;
+    }
+    .about1 button2, .about1 a {
+        margin-top: 7%;
+        position: relative;
+        display: inline-block;
+        border: none;
+        background-color: #eabab6;
+        color: #ffffff;
+        font-size: 1em;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 10px;
+        text-align: center;
+        border-radius: 3px;
+        transition: all .25s ease;
+        font-weight: 700;
+    }
+    .about1 p{
+        font-size: 1em;
+    }
+}
+
+
